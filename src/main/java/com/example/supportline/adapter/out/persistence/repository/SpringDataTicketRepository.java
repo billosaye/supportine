@@ -1,0 +1,7 @@
+package com.example.supportline.adapter.out.persistence.repository;
+
+import com.example.supportline.domain.model.Technician;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface SpringDataTicketRepository extends JpaRepository<Technician, Long> {
+}
