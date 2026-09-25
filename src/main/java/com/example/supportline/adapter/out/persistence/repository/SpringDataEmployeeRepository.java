@@ -5,4 +5,5 @@ import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface SpringDataEmployeeRepository extends JpaRepository<Employee, Long> {
 
+    boolean existsByEmail(String email);
 }
